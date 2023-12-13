@@ -1,7 +1,7 @@
 plugins {
-    id("carlosdiamon.paper-conventions")
-		alias(libs.plugins.shadow)
-		alias(libs.plugins.pluginyml)
+	id("carlosdiamon.paper-conventions")
+	alias(libs.plugins.shadow)
+	alias(libs.plugins.pluginyml)
 }
 
 // https://github.com/Minecrell/plugin-yml

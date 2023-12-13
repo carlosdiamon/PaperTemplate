@@ -1,5 +1,5 @@
 plugins {
-    id("carlosdiamon.common-conventions")
+	id("carlosdiamon.common-conventions")
 }
 
 dependencies {
