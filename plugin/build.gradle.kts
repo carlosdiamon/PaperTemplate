@@ -15,18 +15,17 @@ paper {
 	author = "Carlosdiamon"
 }
 
-/* If you use paperweight
 tasks {
-    shadowJar {
-        archiveBaseName.set(rootProject.name)
-        archiveClassifier.set("")
-    }
-
-    assemble {
-        dependsOn(reobfJar)
-    }
+	shadowJar {
+		archiveBaseName.set(rootProject.name)
+		archiveClassifier.set("")
+	}
+	/* If you use paperweight
+			assemble {
+					dependsOn(reobfJar)
+			}
+	 */
 }
-*/
 
 dependencies {
 	implementation(project(":PaperTemplate-common"))
