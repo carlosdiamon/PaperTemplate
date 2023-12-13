@@ -10,10 +10,9 @@ paper {
 	description = "A template for Paper plugins"
 	version = project.version.toString()
 	website = "https://example.com"
-	main = "io.github.carlosdiamon.paper.Core"
-	apiVersion = "1.20.2"
+	main = "io.github.carlosdiamon.Core"
+	apiVersion = "1.20"
 	author = "Carlosdiamon"
-
 }
 
 /* If you use paperweight
@@ -30,5 +29,6 @@ tasks {
 */
 
 dependencies {
-
+	implementation(project(":PaperTemplate-common"))
+	compileOnly(libs.paper)
 }

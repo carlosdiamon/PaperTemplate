@@ -1,4 +1,4 @@
-package io.github.carlosdiamon.paper;
+package io.github.carlosdiamon;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -6,7 +6,7 @@ public class Core extends JavaPlugin {
 
 	@Override
 	public void onEnable() {
-		// zzz
+		getSLF4JLogger().info("Hello World!");
 	}
 
 	@Override
