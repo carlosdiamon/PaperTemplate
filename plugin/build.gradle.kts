@@ -18,7 +18,9 @@ paper {
 tasks {
 	shadowJar {
 		archiveBaseName.set(rootProject.name)
+		archiveVersion.set("${project.version}")
 		archiveClassifier.set("")
+		val path = "io.github.carlosdiamon.libs" // use relocate
 	}
 	/* If you use paperweight
 			assemble {
